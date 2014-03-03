@@ -58,7 +58,7 @@ document.getElementById('lat').value = event.latLng.lat();
 document.getElementById('lng').value = event.latLng.lng();
 getLo(event.latLng);
 });
-var address = '<h1>locationvalue<h1>';
+var address = '<h1>locationvalue</h1>';
 geocoder.geocode( { 'address': address}, function(results, status) {
 if (status == google.maps.GeocoderStatus.OK) {
 // console.log(results[0].geometry.location);
@@ -78,7 +78,7 @@ console.log(marker);
 });
 }
 function codeAddress() {
-var address = '<h1>locationvalue<h1>';
+var address = '<h1>locationvalue</h1>';
 geocoder.geocode( { 'address': address}, function(results, status) {
 if (status == google.maps.GeocoderStatus.OK) {
 // console.log(results[0].geometry.location);
